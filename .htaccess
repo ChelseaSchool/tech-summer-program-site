@@ -1,0 +1,7 @@
+Options -Indexes 
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^stemcamp\.chelseaschool\.edu$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.stemcamp\.chelseaschool\.edu$
+RewriteRule ^/?$ "http\:\/\/teamchelsea\.net\/stemcamp" [R=301,L]
+
